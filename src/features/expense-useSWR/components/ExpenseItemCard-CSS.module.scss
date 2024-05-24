@@ -1,0 +1,55 @@
+.container {
+  color: rgb(255 255 255);
+  background-color: rgb(13 148 136);
+  border-color: rgb(17 94 89);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  box-shadow:
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
+}
+
+.row {
+  display: flex;
+  margin: 16px;
+}
+
+.item {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  border-color: rgb(153 246 228);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+}
+
+.others {
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.price {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.othersRow {
+  color: rgb(228 228 231);
+  gap: 1rem;
+  display: flex;
+}
+.username {
+  text-transform: capitalize;
+}
